@@ -1,0 +1,15 @@
+$DarkBlue-DarkMode: hsl(209, 23%, 22%);
+$VeryDarkBlue-DarkMode: hsl(207, 26%, 17%);
+$VeryDarkBlue-LightMode: hsl(200, 15%, 8%);
+$DarkGray-LightMode: hsl(0, 0%, 52%);
+$VeryLightGray-LightMode: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+
+:export{
+    DarkBlue-DarkMode:$DarkBlue-DarkMode;
+    VeryDarkBlue-DarkMode:$VeryDarkBlue-DarkMode;
+    VeryDarkBlue-LightMode:$VeryDarkBlue-LightMode;
+    DarkGray-LightMode:$DarkGray-LightMode;
+    VeryLightGray-LightMode:$VeryLightGray-LightMode;
+    White:$White;
+}

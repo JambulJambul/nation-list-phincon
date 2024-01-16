@@ -1,0 +1,21 @@
+$screen-sm-limit:576px;
+$screen-md-limit: 768px;
+$screen-lg-limit: 1024px;
+
+@mixin apply-at-sm-size {
+    @media(min-width: $screen-sm-limit) {
+        @content;
+    }
+}
+
+@mixin apply-at-md-size {
+    @media(min-width: $screen-md-limit) {
+        @content;
+    }
+}
+
+@mixin apply-at-lg-size {
+    @media(min-width: $screen-lg-limit) {
+        @content;
+    }
+}

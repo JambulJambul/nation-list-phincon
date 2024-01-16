@@ -1,0 +1,11 @@
+@import '../../../../styles/base.scss';
+
+.search-bar{
+    width: 100%;
+    @include apply-at-md-size{
+        width: 40%;
+    }
+    @include apply-at-lg-size{
+        width: 20%;
+    }
+}
